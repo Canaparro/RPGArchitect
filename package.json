@@ -1,0 +1,37 @@
+{
+  "name": "rpgarchitect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canaparro/RPGArchitect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Canaparro/RPGArchitect/issues"
+  },
+  "homepage": "https://github.com/Canaparro/RPGArchitect#readme"
+}
