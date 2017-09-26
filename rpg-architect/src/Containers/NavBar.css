@@ -1,0 +1,18 @@
+.nav-dark {
+    background-color: #1B1919;
+    color: chocolate;
+}
+
+.logo {
+    animation: logo-spin infinite 20s linear;
+    height: 60px;
+    width: 60px;
+}
+button {
+    color: chocolate;
+    border-color: chocolate;
+}
+@keyframes logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
