@@ -4,7 +4,7 @@ import './NavBar.css'
 class NavBar extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-md nav-dark bg-chocolate fixed-top">
+            <nav className="navbar navbar-expand-md text-light bg-dark fixed-top">
                 <a className="navbar-brand">
                     <img src="./favicon.ico" className="logo d-inline-block" alt=""/>
                     RPG Architect
@@ -14,7 +14,7 @@ class NavBar extends React.Component {
                         <a className="nav-item nav-link">Home</a>
                     </div>
                 </div>
-                <button className="btn btn-outline-success my-2 my-sm-0">Login</button>
+                <button className="btn btn-outline-info my-2 my-sm-0">Login</button>
             </nav>
         )
     }
