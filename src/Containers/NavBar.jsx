@@ -4,7 +4,7 @@ import './NavBar.css'
 class NavBar extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-md text-light bg-dark fixed-top">
+            <nav className="navbar navbar-expand-md text-light bg-dark">
                 <a className="navbar-brand">
                     <img src="./favicon.ico" className="logo d-inline-block" alt=""/>
                     RPG Architect
